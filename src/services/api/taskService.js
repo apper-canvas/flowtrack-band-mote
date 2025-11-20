@@ -302,7 +302,6 @@ export const taskService = {
     }
   }
 };
-import { getApperClient } from '@/services/apperClient';
 import { toast } from 'react-toastify';
 
 const TABLE_NAME = 'tasks_c';

@@ -26,7 +26,6 @@ export const userSlice = createSlice({
 
 export const { setUser, clearUser, setInitialized } = userSlice.actions
 export default userSlice.reducer
-import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
   user: null,

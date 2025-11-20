@@ -193,7 +193,6 @@ export function verifyRouteAccess(config, user) {
         failed: failed.map(f => f.label)
     };
 }
-import routeConfig from "./routes.json";
 
 // Custom authorization functions registry
 const customFunctions = {}; // Always keep empty
